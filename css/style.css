@@ -23,6 +23,15 @@ body {
   flex-wrap: wrap;
 }
 
+.nav-list a {
+  color: black;
+}
+
+.list {
+  border-top: 1px solid black;
+  padding: 10px;
+}
+
 .container {
   max-width: 1200px;
   width: 90%;
@@ -126,9 +135,17 @@ body {
   margin-top: 80px;
 }
 
+.inv {
+  display: none;
+}
+
 .produk-judul {
   text-align: center;
   margin-top: 80px;
+}
+
+.nav-list a {
+  margin: 0 auto;
 }
 
 .galeri-judul {
@@ -230,4 +247,15 @@ body {
   iframe {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 600px) {
+  #nav-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
