@@ -249,12 +249,12 @@ body {
   }
 } /*# sourceMappingURL=style.css.map */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   #nav-menu {
     display: none;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 699px) {
   .navbar {
     display: none;
   }
